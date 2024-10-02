@@ -1,0 +1,233 @@
+<html>
+
+    <head>
+        <script src="https://kit.fontawesome.com/a2cf99a6f3.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="icon/st1.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style type="text/css">
+            .jumbotron {
+              padding: 4rem 2rem;
+              margin-bottom: 2rem;
+              background-color: var(--bs-light);
+              border-radius: .3rem;  
+            }
+        </style>
+        <title>SkyNet I</title>
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class='container'>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#index.html">
+                        <img src="pictures/mes2.png">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#second">Get Started !</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">操作方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#latest">研究團隊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.ie.thu.edu.tw/index.php">聯絡我們</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+                </div>
+                <section id='intro'>
+                    <div class='jumbotron'>
+                        <div class='container'>
+                            <div class='row'>
+                                <div class='col-md-6'>
+                                    <h1>SkyNet I</h1>
+                                    <p class='lesd'>The combination of PDF and LLM</p>
+                                    <a class='btn' href='http://127.0.0.1:7860'>Get Started!</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <img src="pictures/mes1.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="pictures/mes2.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="pictures/mes3.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="pictures/mes4.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="pictures/mes5.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id='second'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-md-8 offset-md-2 text-center'>
+                                <h3>Let's Get Started!</h3>
+                                <div class='row'>
+                                    <div class='col-md-4'>
+                                        <a href='https://aws.amazon.com/tw/what-is/generative-ai/'>
+                                        <img src="pictures/ai.jpeg">
+                                        <h5>生成式AI</h5>
+                                        </a>
+                                    </div>
+                                    <div class='col-md-8 text-start'>
+                                        <p class='lead'>在如今人工智慧快速發展的時代，該如何將其變成我們最得力的助手呢?</p>
+                                        <P>在這個專案裡我們的目標是將PDF檔案匯入經訓練過後的大型語言模型，讓您可以更方便的在各種不同場域使用針對各項特定任務的大型語言模型。</P>
+                                        <p>而為了解決資訊安全的問題，我們建構了一個本地端的伺服器來承接訓練完成的模型，讓您可以不用擔心資料會因為網路的連線而洩漏出去。</p>
+                                        <p>希望這個專案能夠幫助到您~~</p>
+                                        <p>-------------------------------------------------------------------------------------------------------------</p>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-md-4'>
+                                        <a href='https://aws.amazon.com/tw/what-is/large-language-model/'>
+                                        <img src="pictures/llm.jpg">
+                                        <h5>大型語言模型</h5>
+                                        </a>
+                                    </div>
+                                    <div class='col-md-8 text-start'>
+                                        <p class='lead'>為何選擇大型語言模型(Large Language Model)?</p>
+                                        <P>1. LLM能夠自動處理和解釋大量的非結構化數據，例如:維修記錄、生產報告和品質控制文件。這不僅提升了數據處理的速度和準確性，還使管理人員能夠及時獲得有用的資訊，從而更快地做出基於數據的決策。</P>
+                                        <p>2. 訓練有素的LLM可以為操作員提供交互式培訓，通過模擬的對話交流來傳達複雜的技術知識，比起傳統的培訓手段更加直接和個性化。這種方式不僅提高了培訓效率還增進了員工的學習體驗，進而提升其工作表現。</p>
+                                        <p>3. LLM的進階應用非常廣泛，例如可以通過分析歷史維修數據和實時表現數據來預測設備失效的預測性維護，這有助於減少意外停機時間並節省昂貴的維修成本。</p>
+                                        <p>綜上所述，大型語言模型的引入將有助於企業在保障生產高效性的同時，進一步提升創新能力和市場競爭力。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="latest">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3>研究團隊</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="outer text-center">
+                                    <a href='https://www.ie.thu.edu.tw/front/members/teacher1/member.php?ID=dGh1X2llJnRlYWNoZXIx&PID=5189'>
+                                        <div class="upper">
+                                            <img src="pictures/lin500.jpg">
+                                            <div class="innertext">
+                                                <h4>林育儒 老師</h4>
+                                            </div>
+                                        </div>
+                                        <div class="lower">
+                                            <h3><i class="fa-solid fa-building-columns"></i>東海大學工業工程與經營資訊學系 教授</h3>
+                                            <span><i class="fa-solid fa-image-portrait"></i>研究領域:</span><br>
+                                            <span>--高頻被動電路設計與製作、電子產業製作流程、半導體元件物理。</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="outer text-center">
+                                    <a href='https://www.ie.thu.edu.tw/front/members/teacher1/member.php?ID=dGh1X2llJnRlYWNoZXIx&PID=15'>
+                                        <div class="upper">
+                                            <img src="pictures/huang500.jpg">
+                                            <div class="innertext">
+                                                <h4>黃欽印 老師</h4>
+                                            </div>
+                                        </div>
+                                        <div class="lower">
+                                            <h3><i class="fa-solid fa-building-columns"></i>東海大學工業工程與經營資訊學系 教授</h3>
+                                            <span><i class="fa-solid fa-image-portrait"></i>研究領域:</span><br>
+                                            <span>--機器人與自動化系統、虛擬企業、製造執行系統、生醫資訊。</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="outer text-center">
+                                    <a href='https://www.facebook.com/caky.chen'>
+                                        <div class="upper">
+                                            <img src="pictures/handsomeme500.jpg">
+                                            <div class="innertext">
+                                                <h4>陳維思</h4>
+                                            </div>
+                                        </div>
+                                        <div class="lower">
+                                            <h3><i class="fa-solid fa-building-columns"></i>東海大學工業工程與經營資訊學系 碩士</h3>
+                                            <span><i class="fa-solid fa-image-portrait"></i>目前正在研究有關於將大型語言模型、本體論、影像辨識三者結合成一套自動化的異常處理模型。</span><!--<br>-->
+                                            <!--<span>正在研究有關於將大型語言模型、本體論、影像辨識三者結合成一套自動化的異常處理模型。</span>-->
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class='row'>
+                              <div class='col-md-4 text-left'>
+                                  <img src='pictures/mes2.png' width='85'>
+                                  <p>We are MES Laboratory</p>
+                              </div>
+                              <div class='col-md-4 text-left'>
+                                  <h4>連結</h4>
+                                  <ul>
+                                      <li><a href='index.html'>主頁</a></li>
+                                      <li><a href='#'>操作方式</a></li>
+                                      <li><a href='https://www.ie.thu.edu.tw/index.php'>聯絡我們</a></li>
+                                  </ul>						  
+                              </div>
+                              <div class='col-md-4 text-left'>
+                                  <h4>聯絡我們</h4>
+                                  <p>407台中市西屯區東海大學工業工程與經營資訊學系<br>
+                                     Phone: (+886) 978-576-123<br>
+                                     E-Mail: <a href='mailto:luziferangle@gmail.com'>luziferangle@gmail.com</a><br>
+                                     <!--E-Mail: <a href='mailto:qaz851106@gmail.com'>qaz851106@gmail.com</a>-->
+                                  </p>
+                              </div>
+                        </div>
+                    </div>	        
+                
+                </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay: true,
+        autoplayTimeout:2000,
+        autoplaySpeed: 800,
+        autoplayHoverPause: true,
+        responsive:{0:{items:1},600:{items:2},1000:{items:3}}})
+    </script>
+    </body>
+
+</html>
